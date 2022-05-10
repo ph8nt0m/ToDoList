@@ -13,6 +13,7 @@
 		6FBD9205282A7E3300BC6EC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FBD9203282A7E3300BC6EC6 /* Main.storyboard */; };
 		6FBD9207282A7E3600BC6EC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FBD9206282A7E3600BC6EC6 /* Assets.xcassets */; };
 		6FBD920A282A7E3600BC6EC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FBD9208282A7E3600BC6EC6 /* LaunchScreen.storyboard */; };
+		6FBD9212282A815100BC6EC6 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBD9211282A815100BC6EC6 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6FBD9206282A7E3600BC6EC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FBD9209282A7E3600BC6EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FBD920B282A7E3600BC6EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FBD9211282A815100BC6EC6 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				6FBD9206282A7E3600BC6EC6 /* Assets.xcassets */,
 				6FBD9208282A7E3600BC6EC6 /* LaunchScreen.storyboard */,
 				6FBD920B282A7E3600BC6EC6 /* Info.plist */,
+				6FBD9211282A815100BC6EC6 /* Task.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FBD9212282A815100BC6EC6 /* Task.swift in Sources */,
 				6FBD9202282A7E3300BC6EC6 /* ViewController.swift in Sources */,
 				6FBD91FE282A7E3300BC6EC6 /* AppDelegate.swift in Sources */,
 				6FBD9200282A7E3300BC6EC6 /* SceneDelegate.swift in Sources */,
